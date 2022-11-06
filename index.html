@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <script type="module" src="assets/js/app.js"></script>
+  <my-header></my-header>
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-sm-6 col-md-8 col-lg-10">
+                    <h1>ПОЗНАКОМИМСЯ?</h1>
+                    <h2>Меня зовут Никита Смолин, я веб-дизайнер с опытом работы более двух лет, обучаюсь в университете по направлению “Прикладная информатика в компьтерном дизайне”. 
+                        Основное направление -
+                        макетирование и прототипирование сайтов.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wallpapersmug.com/download/2048x1152/feb7e7/glitch-colorful-painting-artwork.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.wallpaperscraft.ru/image/single/kraska_fluid_art_razvody_185113_2048x1152.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.wallpaperscraft.ru/image/single/razvody_kraska_zhidkost_190480_2048x1152.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</section>
+
+
+<section id="form_" class="d-flex align-items-center justify-content-center">
+  <div class="container">
+      <div class="row justify-content-center"> 
+          <div class="col-sm-12 col-md-6 col-lg-8">
+              <h2>Оставить заявку</h2>
+              <form class="row g-3">
+                  <div class="col-md-4">
+                    <label for="inputName" class="form-label">Имя</label>
+                    <input type="name" class="form-control" id="inputname">
+                  </div>
+                  <div class="col-md-8">
+                    <label for="inputEmail4" class="form-label">Почта</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-md-4">
+                      <label for="inputState" class="form-label">Услуга</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Выберете...</option>
+                        <option>Логотип</option>
+                        <option>Айдентика</option>
+                        
+                      </select>
+                    </div>
+                  <div class="col-md-8">
+                    <label for="inputMesseges" class="form-label">Сообщение</label>
+                    <input type="text" class="form-control" id="inputMesseges">
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                  </div>
+                </form>
+          </div>
+      </div>
+  </div>
+</section>
+
+    <section id="Table" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="col-sm-2 col-md-4 col-lg-6">
+            <table class="table align-middle mb-0 bg-white">
+                <thead class="bg-light">
+                  <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                    <th>Position</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/8.jpg"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            class="rounded-circle"
+                            />
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">John Doe</p>
+                          <p class="text-muted mb-0">john.doe@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Software engineer</p>
+                      <p class="text-muted mb-0">IT department</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-success rounded-pill d-inline">Active</span>
+                    </td>
+                    <td>Senior</td>
+                    <td>
+                      <button type="button" class="btn btn-link btn-sm btn-rounded">
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            />
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">Alex Ray</p>
+                          <p class="text-muted mb-0">alex.ray@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Consultant</p>
+                      <p class="text-muted mb-0">Finance</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-primary rounded-pill d-inline"
+                            >Onboarding</span
+                        >
+                    </td>
+                    <td>Junior</td>
+                    <td>
+                      <button
+                              type="button"
+                              class="btn btn-link btn-rounded btn-sm fw-bold"
+                              data-mdb-ripple-color="dark"
+                              >
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="d-flex align-items-center">
+                        <img
+                            src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                            class="rounded-circle"
+                            alt=""
+                            style="width: 45px; height: 45px"
+                            />
+                        <div class="ms-3">
+                          <p class="fw-bold mb-1">Kate Hunington</p>
+                          <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <p class="fw-normal mb-1">Designer</p>
+                      <p class="text-muted mb-0">UI/UX</p>
+                    </td>
+                    <td>
+                      <span class="badge badge-warning rounded-pill d-inline">Awaiting</span>
+                    </td>
+                    <td>Senior</td>
+                    <td>
+                      <button
+                              type="button"
+                              class="btn btn-link btn-rounded btn-sm fw-bold"
+                              data-mdb-ripple-color="dark"
+                              >
+                        Edit
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </section>
+
+
+<section id="Modal" class="d-flex align-items-right justify-content-center">
+        <div class="container">
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Модальное окно
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Привет</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary">Сохранить</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</section>
+
+    <section id="FAQ" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-sm-2 col-md-4 col-lg-8">
+                    <h2>FAQ</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingOne">
+                            <button class="accordion-button bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Lorem Ipsum
+                            </button>
+                          </h3>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark">
+                               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque vitae quia! Quis, veniam eaque labore tenetur dicta beatae praesentium, deserunt in harum ipsam hic?
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lorem Ipsum
+                            </button>
+                          </h3>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi iure quae vitae ea ipsam nam, similique quidem voluptatum, sequi eos minus atque earum enim praesentium, in porro vel! Rem?
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Lorem Ipsum
+                            </button>
+                          </h3>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body bg-dark">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione nihil ipsam qui unde id quis soluta maxime placeat. Sed saepe harum doloribus dicta quam, at dolores, officiis asperiores voluptas, dolor ipsum odio distinctio et nesciunt molestias eaque voluptatum alias!
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form_" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center"> 
+                <div class="col-sm-4 col-md-6 col-lg-8">
+                    <h2>Заполните форму для заявки</h2>
+                    <form class="row g-3">
+                        <div class="col-md-4">
+                          <label for="inputName" class="form-label">Имя</label>
+                          <input type="name" class="form-control" id="inputname">
+                        </div>
+                        <div class="col-md-8">
+                          <label for="inputEmail4" class="form-label">Почта</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">Услуга</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Выберете...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                        <div class="col-md-8">
+                          <label for="inputMesseges" class="form-label">Сообщение</label>
+                          <input type="text" class="form-control" id="inputMesseges">
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <my-footer></my-footer>
+    <!-- <footer id="footer">
+        <div class="container">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Обо мне</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Резюме</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Услуги
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Логотип</a></li>
+                      <li><a class="dropdown-item" href="#">Айдентика</a></li>
+                      <li><a class="dropdown-item" href="#">Сайт</a></li>
+                      <li><a class="dropdown-item" href="#">Приложение</a></li>
+                    </ul>
+                  </li>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Портфолио</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Контакты</a>
+              </nav>
+        </div>
+        <div class="container"><h3>NIKITA SMOLIN ©2022</h3></div>
+        <!-- <h3>NIKITA SMOLIN ©2022</h3> -->
+    <!-- </footer> --> -->
+
+
+
+   <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+
+    <script src="assets/java/app.js"></script>    
+</body>
+</html>
